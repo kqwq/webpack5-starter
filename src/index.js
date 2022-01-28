@@ -167,6 +167,9 @@ let canvas = document.getElementsByTagName('canvas')[0];
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
+// hide overflow
+document.body.style.overflow = 'hidden';
+
 window.addEventListener("resize", function(){
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;

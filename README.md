@@ -3,8 +3,8 @@
 Compiling matter.js project to Khan Academy using Webpack 5 
 
 ### Run locally
-
-\> git clone <this repo> .
+First, navigate to the root of the project.
+\> git clone https://github.com/kqwq/matter-test.git .
 \> npm install
 \> npm run build
 
