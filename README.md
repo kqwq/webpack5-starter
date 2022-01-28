@@ -9,6 +9,6 @@ First, navigate to the root of the project.
 \> npm run build
 
 ### Run on Khan Academy
-\> Create a new webpage
+\> Create a new webpage 
 \> Copy the contents of the `main.bundle.js` file into a `<script type> ... </script>` tag
 \> Save and append ?width=800&height=600 to the URL
