@@ -1,22 +1,14 @@
-# Webpack 5 Boilerplate
+# Matter.js Test
 
-Build instructions: (for dummies)
+Compiling matter.js project to Khan Academy using Webpack 5 
 
-### Step 0
-Fork this repository and clone it to your local machine. If you don't know how to do that, [check out this page](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository#:~:text=Cloning%20an%20Existing,com/libgit2/libgit2).
-<br><br>
-### Step 1
-run 
-<pre>npm init -y && npm i && npm run build</pre>
-to set up the environment.
-<br><br>
-### Step 2
-Install your favorite [npm](https://www.npmjs.com/) dependencies with
-<pre>npm i [dependency name]</pre>
-... and code your app inside the src/ directory.
-<br><br>
-### Step 3
-Test your app at http://localhost:9000/
-<br><br>
-### How do I deploy my app?
-Just enable GitHub Pages and remove /dist from .gitignore.
+### Run locally
+
+\> git clone <this repo> .
+\> npm install
+\> npm run build
+
+### Run on Khan Academy
+\> Create a new webpage
+\> Copy the contents of the `main.bundle.js` file into a `<script type> ... </script>` tag
+\> Save and append ?width=800&height=600 to the URL
